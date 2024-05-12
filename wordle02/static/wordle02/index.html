@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-menu">
+        <img src="assat/menu.svg" alt="menu" />
+      </div>
+      <div class="header-logo">
+        <img src="assat/Wordle-Logo.jpg" alt="Logo" />
+      </div>
+
+      <div class="header-icons">
+        <img src="assat/question.svg" alt="question" />
+        <img src="assat/chart.svg" alt="chart" />
+        <img src="assat/setting.svg" alt="setting" />
+      </div>
+    </header>
+
+    <main>
+      <h2 id="timer">00:00</h2>
+
+      <div class="board-row row-0">
+        <div class="board-column" data-index="00"></div>
+        <div class="board-column" data-index="01"></div>
+        <div class="board-column" data-index="02"></div>
+        <div class="board-column" data-index="03"></div>
+        <div class="board-column" data-index="04"></div>
+      </div>
+      <div class="board-row row-1">
+        <div class="board-column" data-index="10"></div>
+        <div class="board-column" data-index="11"></div>
+        <div class="board-column" data-index="12"></div>
+        <div class="board-column" data-index="13"></div>
+        <div class="board-column" data-index="14"></div>
+      </div>
+      <div class="board-row row-2">
+        <div class="board-column" data-index="20"></div>
+        <div class="board-column" data-index="21"></div>
+        <div class="board-column" data-index="22"></div>
+        <div class="board-column" data-index="23"></div>
+        <div class="board-column" data-index="24"></div>
+      </div>
+      <div class="board-row row-3">
+        <div class="board-column" data-index="30"></div>
+        <div class="board-column" data-index="31"></div>
+        <div class="board-column" data-index="32"></div>
+        <div class="board-column" data-index="33"></div>
+        <div class="board-column" data-index="34"></div>
+      </div>
+      <div class="board-row row-4">
+        <div class="board-column" data-index="40"></div>
+        <div class="board-column" data-index="41"></div>
+        <div class="board-column" data-index="42"></div>
+        <div class="board-column" data-index="43"></div>
+        <div class="board-column" data-index="44"></div>
+      </div>
+      <div class="board-row row-5">
+        <div class="board-column" data-index="50"></div>
+        <div class="board-column" data-index="51"></div>
+        <div class="board-column" data-index="52"></div>
+        <div class="board-column" data-index="53"></div>
+        <div class="board-column" data-index="54"></div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="key-row row-0">
+        <div class="key-column" data-key="Q">Q</div>
+        <div class="key-column" data-key="W">W</div>
+        <div class="key-column" data-key="E">E</div>
+        <div class="key-column" data-key="R">R</div>
+        <div class="key-column" data-key="T">T</div>
+        <div class="key-column" data-key="Y">Y</div>
+        <div class="key-column" data-key="U">U</div>
+        <div class="key-column" data-key="I">I</div>
+        <div class="key-column" data-key="O">O</div>
+        <div class="key-column" data-key="P">P</div>
+      </div>
+      <div class="key-row row-1">
+        <div class="key-column" data-key="A">A</div>
+        <div class="key-column" data-key="S">S</div>
+        <div class="key-column" data-key="D">D</div>
+        <div class="key-column" data-key="F">F</div>
+        <div class="key-column" data-key="G">G</div>
+        <div class="key-column" data-key="H">H</div>
+        <div class="key-column" data-key="J">J</div>
+        <div class="key-column" data-key="K">K</div>
+        <div class="key-column" data-key="L">L</div>
+      </div>
+      <div class="key-row row-2">
+        <div class="key-column" data-key="Z">Z</div>
+        <div class="key-column" data-key="X">X</div>
+        <div class="key-column" data-key="C">C</div>
+        <div class="key-column" data-key="V">V</div>
+        <div class="key-column" data-key="B">B</div>
+        <div class="key-column" data-key="N">N</div>
+        <div class="key-column" data-key="M">M</div>
+        <div class="key-column" id="enter-column" data-key="ENTER">ENTER</div>
+        <div class="key-column" id="delete-column" data-key="지우기">
+          <img src="assat/backspace.svg" data-key="지우기" alt="backspace" />
+        </div>
+      </div>
+    </footer>
+    <script src="js/index.js"></script>
+  </body>
+</html>

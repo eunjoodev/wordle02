@@ -1,0 +1,121 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #d3d6da;
+}
+
+.header-menu {
+  width: 30px;
+  height: 30px;
+  padding-right: 80px;
+}
+
+.header-logo {
+  position: relative;
+}
+
+.header-logo img {
+  width: 120px;
+  height: 60px;
+  position: relative;
+}
+
+.header-icons {
+  display: flex;
+  width: 100px;
+  height: 25px;
+  gap: 10px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.board-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.board-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #d3d6da;
+  width: 50px;
+  height: 50px;
+  font-weight: bold;
+}
+
+.key-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  width: 45px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.key-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.key-row row-2 {
+  position: relative;
+}
+
+#enter-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  width: 85px;
+  height: 60px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  position: absolute;
+  margin-right: 460px;
+}
+#delete-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #d3d6da;
+  width: 65px;
+  height: 60px;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  position: absolute;
+  margin-left: 440px;
+}
+
+#delete-column img {
+  width: 24px;
+  height: 24px;
+}
+
+.correct {
+  background: hotpink; /* 정답을 맞춘 키의 배경색 */
+}
